@@ -1,1 +1,65 @@
-{}
+{
+    "accountList": {
+        "window": {
+            "url": "\\components\\accountList\\accountList.html",
+            "frame": false,
+            "resizable": true,
+            "autoShow": true,
+            "defaultTop": "center",
+            "defaultLeft": "center",
+            "defaultWidth": 800,
+            "defaultHeight": 600
+        },
+        "component": {
+            "type": "accountList",
+            "account-type": "vip"
+        },
+        "foreign": {
+            "services": {
+                "workspaceService": {
+                    "persists": true,
+                    "isArrangable": true
+                }
+            },
+            "components": {
+                "App Launcher": {
+                    "launchableByUser": true
+                },
+                "Window Manager": {
+                    "FSBLHeader": true
+                }
+            }
+        }
+    },
+    "accountDetail": {
+        "window": {
+            "url": "\\components\\accountDetail\\accountDetail.html",
+            "frame": false,
+            "resizable": true,
+            "autoShow": true,
+            "defaultTop": "center",
+            "defaultLeft": "center",
+            "defaultWidth": 800,
+            "defaultHeight": 600
+        },
+        "component": {
+            "type": "accountDetail"
+        },
+        "foreign": {
+            "services": {
+                "workspaceService": {
+                    "persists": true,
+                    "isArrangable": true
+                }
+            },
+            "components": {
+                "App Launcher": {
+                    "launchableByUser": true
+                },
+                "Window Manager": {
+                    "FSBLHeader": true
+                }
+            }
+        }
+    }
+}
