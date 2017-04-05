@@ -9,7 +9,9 @@
     "build": "gulp build --gulpfile=./gulpfile.js",
     "wp": "gulp wp --gulpfile=./gulpfile.js",
     "install-cli": "npm install -g @chartiq/finsemble-cli",
-    "update": "npm update @chartiq/finsemble && npm update -g @chartiq/finsemble-cli"
+    "update": "npm update @chartiq/finsemble && npm update -g @chartiq/finsemble-cli && npm run print-finsemble-version",
+    "print-finsemble-version": "npm list @chartiq/finsemble --depth=0"
+    
   },
   "author": "",
   "license": "ISC",
