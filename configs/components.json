@@ -27,6 +27,9 @@
                 },
                 "Window Manager": {
                     "FSBLHeader": true
+                },
+                "Toolbar":{
+                    "iconClass": ""
                 }
             }
         }
@@ -54,7 +57,7 @@
             },
             "components": {
                 "App Launcher": {
-                    "launchableByUser": true
+                    "launchableByUser": false
                 },
                 "Window Manager": {
                     "FSBLHeader": true
